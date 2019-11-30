@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="29.207304">
+<testcase classname="Application Login" name="Home page default login" time="5.840511">
+<system-out><![CDATA[Given I log in to the Website...............................................passed
+When I clicked on the buy again.............................................passed
+Then The page is displayed..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="Search for items and then move to checkout page" time="9.201196">
+<system-out><![CDATA[Given User is on Greencart Landing page.....................................passed
+When User searched for Brinjal Vegetable....................................passed
+And Added items to cart.....................................................passed
+And User proceeded to Checkout page for purchase............................passed
+Then verify selected Brinjal items are displayed in Check out page..........passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="Search for items and then move to checkout page 2" time="8.579306">
+<system-out><![CDATA[Given User is on Greencart Landing page.....................................passed
+When User searched for Beetroot Vegetable...................................passed
+And Added items to cart.....................................................passed
+And User proceeded to Checkout page for purchase............................passed
+Then verify selected Beetroot items are displayed in Check out page.........passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="Search for items and then move to checkout page 3" time="5.586291">
+<system-out><![CDATA[Given i search Brinjal in eb................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
